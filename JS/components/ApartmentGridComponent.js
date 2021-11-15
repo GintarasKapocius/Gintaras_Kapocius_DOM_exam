@@ -17,16 +17,30 @@ class ApartmentGridComponent {
     this.state.loading = true
     this.fetchApartments()
     this.htmlElement = document.createElement('div')
-    this.htmlElement.innerHTML = 'I am Apartment Grid Component'
+    this.htmlElement.className = 'row g-3'
     this.render()
+  }
+
+  cardWrapper = (element) => {
+    const col = document.createElement('div')
+    col.className = 'col-12 col-sm-6 col-lg-4 col-xl-3'
+    col.appendChild(element)
+    return col
   }
 
   render = () => {
     const { loading, apartments } = this.state
     if (loading) {
-      this.htmlElement.innerHTML = 'siunčiama...'
+      this.htmlElement.innerHTML = `<div class="text-center"><img src="./assets/Loading.gif"/></div>`
+    } else if (apartments.length > 0) {
+      this.htmlElement.innerHTML = ''
+      const ApartmentElements = apartments
+        .map((x) => new ApartmentCardComponent(x))
+        .map((x) => x.htmlElement)
+        .map(this.cardWrapper)
+      this.htmlElement.append(...ApartmentElements)
     } else {
-      this.htmlElement.innerHTML = 'parsiųsta!'
+      this.htmlElement.innerHTML = `<h2 class="text-center>Apartment elementų nėra</h2>`
     }
   }
 }
