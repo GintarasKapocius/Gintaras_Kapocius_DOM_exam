@@ -67,9 +67,3 @@ class ApartmentCardComponent {
     btn.addEventListener('click', onDelete)
   }
 }
-
-//     "owner": {
-//       "fullname": "Han Solo",
-//       "email": "solo@gmail.com",
-//       "phone": "+37061171078"
-//     },
