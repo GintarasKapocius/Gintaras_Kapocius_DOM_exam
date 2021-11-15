@@ -1,0 +1,136 @@
+{
+  "apartments": [
+    {
+      "id": "1",
+      "type": "flat",
+      "owner": {
+        "fullname": "Han Solo",
+        "email": "solo@gmail.com",
+        "phone": "+37061171078"
+      },
+      "roomCount": 4,
+      "squares": 40,
+      "address": {
+        "city": "Vilnius",
+        "country": "Lietuva",
+        "street": "Antakalnio",
+        "number": "5"
+      },
+      "price": {
+        "amount": 80000,
+        "currency": "€"
+      },
+      "imgSrc": "http://cdn.home-designing.com/wp-content/uploads/2010/08/living-room-with-coral-accents.jpg"
+    },
+    {
+      "id": "2",
+      "type": "house",
+      "owner": {
+        "fullname": "Leia Organa",
+        "email": "leia_organa@gmail.com",
+        "phone": "+37061171010"
+      },
+      "roomCount": 5,
+      "squares": 100,
+      "address": {
+        "city": "Vilnius",
+        "country": "Lietuva",
+        "street": "Antakalnio",
+        "number": "5"
+      },
+      "price": {
+        "amount": 200000,
+        "currency": "€"
+      },
+      "imgSrc": "https://cms-assets.jung.de/cms/media/10/10343/980x496/standard/0530bad159c94581f5f958e414313230/exterior%20%2813%29.jpg"
+    },
+    {
+      "id": "3",
+      "type": "flat",
+      "owner": {
+        "fullname": "Shmi Skywalker",
+        "email": "shmi_Skywalker@gmail.com",
+        "phone": "+37061173322"
+      },
+      "roomCount": 2,
+      "squares": 50,
+      "address": {
+        "city": "Vilnius",
+        "country": "Lietuva",
+        "street": "Antakalnio",
+        "number": "5"
+      },
+      "price": {
+        "amount": 120000,
+        "currency": "$"
+      },
+      "imgSrc": "https://www.somyabuildcon.in/wp-content/uploads/2020/05/flat-interior-design-ideas.jpg"
+    },
+    {
+      "id": "4",
+      "type": "cottage",
+      "owner": {
+        "fullname": "Sola Naberrie",
+        "email": "naberrie@gmail.com",
+        "phone": "+37061174432"
+      },
+      "roomCount": 4,
+      "squares": 100,
+      "address": {
+        "city": "Vilnius",
+        "country": "Lietuva",
+        "street": "Baldžio",
+        "number": "5"
+      },
+      "price": {
+        "amount": 270000,
+        "currency": "€"
+      },
+      "imgSrc": "https://vilniaus-kotedzai.lt/wp-content/uploads/2016/06/pr_134_4_0004-1-1024x614.jpg"
+    },
+    {
+      "id": "5",
+      "type": "house",
+      "owner": {
+        "fullname": "Cliegg Lars",
+        "email": "lars@gmail.com",
+        "phone": "+37061174432"
+      },
+      "roomCount": 6,
+      "squares": 150,
+      "address": {
+        "city": "Vilnius",
+        "country": "Lietuva",
+        "street": "Baldžio",
+        "number": "5"
+      },
+      "price": {
+        "amount": 500000,
+        "currency": "$"
+      },
+      "imgSrc": "https://thecoolhunter.net/wp-content/uploads/old-blog-images/lith.jpg"
+    },
+    {
+      "id": "6",
+      "type": "flat",
+      "owner": {
+        "fullname": "Bail Organa",
+        "email": "bail_organa@gmail.com",
+        "phone": "+37061162259"
+      },
+      "roomCount": 3,
+      "squares": 150,
+      "address": {
+        "city": "Vilnius",
+        "country": "Lietuva",
+        "street": "Aguonų",
+        "number": "5"
+      },
+      "price": {
+        "amount": 175000,
+        "currency": "€"
+      },
+      "imgSrc": "http://cdn.home-designing.com/wp-content/uploads/2010/08/Loft-style-living-room-designs.jpg"
+    }
+  ]
+}
