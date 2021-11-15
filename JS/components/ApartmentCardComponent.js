@@ -14,6 +14,7 @@ class ApartmentCardComponent {
       address,
       price,
       imgSrc,
+      onDelete,
     } = this.props
 
     const { amount, currency } = price
@@ -33,13 +34,11 @@ class ApartmentCardComponent {
     <img src="${imgSrc}" class="card-img-top" height="200px"
     style="object-fit: cover">
     <div class="card-body">
-      <h5 class="card-title m-0">${type}</h5>
+    <div class="d-flex justify-content-between">
+    <h5 class="card-title m-0">${type}</h5>
+      <p class="mb-0">${formatedPrice}</p>
+    </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item px-0 pt-1">
-          <p class="text-muted font-weight-light mb-0">
-            <small>Kaina:</small>
-          </p>
-          <p class="mb-0">${formatedPrice}</p>
         </li>
         <li class="list-group-item px-0">
           <p class="text-muted font-weight-light mb-0">
@@ -54,20 +53,18 @@ class ApartmentCardComponent {
           <p class="mb-0">${fullAddress}</p>
         </li>
         <li class="list-group-item px-0">
-          <p class="text-muted font-weight-light mb-0">
-            <small>Kontaktai:</small>
-          </p>
+          <p class="text-muted font-weight-light mb-0"><small>Kontaktai:</small></p>
           <p class="mb-0">${fullname}</p>
-          <a href="#" class="card-link d-block mx-0">
-            <small>${email}</small>
-          </a>
-          <a href="#" class="card-link d-block mx-0">
-            <small>${phone}</small>
-          </a>
+          <a href="#" class="card-link d-block mx-0"><small>${email}</small></a>
+          <a href="#" class="card-link d-block mx-0"><small>${phone}</small></a>
         </li>
       </ul>
     </div>
-  </div>`
+    <div class="text-center">
+    <button class="btn btn-dark btn-sm position-absolute top-0 end-0 mt-2 me-2">✕</button>
+    </div>`
+    const btn = this.htmlElement.querySelector('.btn')
+    btn.addEventListener('click', onDelete)
   }
 }
 

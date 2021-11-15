@@ -13,8 +13,8 @@
       "address": {
         "city": "Vilnius",
         "country": "Lietuva",
-        "street": "Antakalnio",
-        "number": "5"
+        "street": "Žirmūnų",
+        "number": "19"
       },
       "price": {
         "amount": 80000,
@@ -27,7 +27,7 @@
       "type": "house",
       "owner": {
         "fullname": "Leia Organa",
-        "email": "leia_organa@gmail.com",
+        "email": "organa@gmail.com",
         "phone": "+37061171010"
       },
       "roomCount": 5,
@@ -36,7 +36,7 @@
         "city": "Vilnius",
         "country": "Lietuva",
         "street": "Antakalnio",
-        "number": "5"
+        "number": "33"
       },
       "price": {
         "amount": 200000,
@@ -49,7 +49,7 @@
       "type": "flat",
       "owner": {
         "fullname": "Shmi Skywalker",
-        "email": "shmi_Skywalker@gmail.com",
+        "email": "Skywalker@gmail.com",
         "phone": "+37061173322"
       },
       "roomCount": 2,
@@ -57,14 +57,14 @@
       "address": {
         "city": "Vilnius",
         "country": "Lietuva",
-        "street": "Antakalnio",
-        "number": "5"
+        "street": "Sapiegų",
+        "number": "65"
       },
       "price": {
         "amount": 120000,
         "currency": "$"
       },
-      "imgSrc": "https://www.somyabuildcon.in/wp-content/uploads/2020/05/flat-interior-design-ideas.jpg"
+      "imgSrc": "https://cdn.archilovers.com/projects/c_383_8c055626-045a-4453-975d-31d6e317a9e1.jpg"
     },
     {
       "id": "4",
@@ -79,8 +79,8 @@
       "address": {
         "city": "Vilnius",
         "country": "Lietuva",
-        "street": "Baldžio",
-        "number": "5"
+        "street": "Šermukšnių",
+        "number": "19"
       },
       "price": {
         "amount": 270000,
@@ -115,7 +115,7 @@
       "type": "flat",
       "owner": {
         "fullname": "Bail Organa",
-        "email": "bail_organa@gmail.com",
+        "email": "bailorgana@gmail.com",
         "phone": "+37061162259"
       },
       "roomCount": 3,
@@ -124,7 +124,7 @@
         "city": "Vilnius",
         "country": "Lietuva",
         "street": "Aguonų",
-        "number": "5"
+        "number": "42"
       },
       "price": {
         "amount": 175000,

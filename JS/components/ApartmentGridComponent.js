@@ -3,7 +3,18 @@ class ApartmentGridComponent {
     this.state = { loading: false, apartments: [] }
     this.init()
   }
-  fetchApartments = () => API.fetchApartments(this.saveApartments, alert)
+  initFetch = () =>
+    API.fetchApartments(
+      (apartments) => {
+        this.state.loading = false
+        this.saveApartments(apartments)
+      },
+      (err) => {
+        alert(err)
+        this.state.loading = false
+        this.render()
+      },
+    )
 
   saveApartments = (apartments) => {
     this.state.apartments = apartments
@@ -11,11 +22,17 @@ class ApartmentGridComponent {
     this.render()
   }
 
-  showError = alert
+  deleteApartments = (id) => {
+    API.deleteApartment(
+      id,
+      () => API.fetchApartments(this.saveCars, alert),
+      alert,
+    )
+  }
 
   init = () => {
     this.state.loading = true
-    this.fetchApartments()
+    this.initFetch()
     this.htmlElement = document.createElement('div')
     this.htmlElement.className = 'row g-3'
     this.render()
@@ -35,7 +52,13 @@ class ApartmentGridComponent {
     } else if (apartments.length > 0) {
       this.htmlElement.innerHTML = ''
       const ApartmentElements = apartments
-        .map((x) => new ApartmentCardComponent(x))
+        .map(
+          ({ id, ...apartmentProps }) =>
+            new ApartmentCardComponent({
+              ...apartmentProps,
+              onDelete: () => this.deleteApartments(id),
+            }),
+        )
         .map((x) => x.htmlElement)
         .map(this.cardWrapper)
       this.htmlElement.append(...ApartmentElements)

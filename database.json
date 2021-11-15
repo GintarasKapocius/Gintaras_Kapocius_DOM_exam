@@ -8,13 +8,13 @@
         "email": "solo@gmail.com",
         "phone": "+37061171078"
       },
-      "roomCount": 4,
+      "roomCount": 2,
       "squares": 40,
       "address": {
         "city": "Vilnius",
         "country": "Lietuva",
-        "street": "Antakalnio",
-        "number": "5"
+        "street": "Žirmūnų",
+        "number": "19"
       },
       "price": {
         "amount": 80000,
@@ -27,7 +27,7 @@
       "type": "house",
       "owner": {
         "fullname": "Leia Organa",
-        "email": "leia_organa@gmail.com",
+        "email": "organa@gmail.com",
         "phone": "+37061171010"
       },
       "roomCount": 5,
@@ -36,7 +36,7 @@
         "city": "Vilnius",
         "country": "Lietuva",
         "street": "Antakalnio",
-        "number": "5"
+        "number": "33"
       },
       "price": {
         "amount": 200000,
@@ -49,7 +49,7 @@
       "type": "flat",
       "owner": {
         "fullname": "Shmi Skywalker",
-        "email": "shmi_Skywalker@gmail.com",
+        "email": "Skywalker@gmail.com",
         "phone": "+37061173322"
       },
       "roomCount": 2,
@@ -57,36 +57,14 @@
       "address": {
         "city": "Vilnius",
         "country": "Lietuva",
-        "street": "Antakalnio",
-        "number": "5"
+        "street": "Sapiegų",
+        "number": "65"
       },
       "price": {
         "amount": 120000,
         "currency": "$"
       },
-      "imgSrc": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/room-divider-ideas-tranebergsva-gen-stockholm-living-room-industry-fantastic-frank-popular-copy-1561410782.jpg"
-    },
-    {
-      "id": "4",
-      "type": "cottage",
-      "owner": {
-        "fullname": "Sola Naberrie",
-        "email": "naberrie@gmail.com",
-        "phone": "+37061174432"
-      },
-      "roomCount": 4,
-      "squares": 100,
-      "address": {
-        "city": "Vilnius",
-        "country": "Lietuva",
-        "street": "Baldžio",
-        "number": "5"
-      },
-      "price": {
-        "amount": 270000,
-        "currency": "€"
-      },
-      "imgSrc": "https://vilniaus-kotedzai.lt/wp-content/uploads/2016/06/pr_134_4_0004-1-1024x614.jpg"
+      "imgSrc": "https://cdn.archilovers.com/projects/c_383_8c055626-045a-4453-975d-31d6e317a9e1.jpg"
     },
     {
       "id": "5",
@@ -115,16 +93,16 @@
       "type": "flat",
       "owner": {
         "fullname": "Bail Organa",
-        "email": "bail_organa@gmail.com",
+        "email": "bailorgana@gmail.com",
         "phone": "+37061162259"
       },
-      "roomCount": 3,
+      "roomCount": 5,
       "squares": 150,
       "address": {
         "city": "Vilnius",
         "country": "Lietuva",
         "street": "Aguonų",
-        "number": "5"
+        "number": "42"
       },
       "price": {
         "amount": 175000,
