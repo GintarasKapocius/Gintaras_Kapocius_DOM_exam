@@ -1,7 +1,7 @@
 {
   "name": "gintaras_kapocius_dom_exam",
   "version": "1.0.0",
-  "description": "Dom exam",
+  "description": "## Reikiamos programos",
   "main": "index.js",
   "scripts": {
     "start-unix": "node_modules/.bin/json-server --watch database.json",
@@ -11,10 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/GintarasKapocius/Gintaras_Kapocius_DOM_exam.git"
   },
-  "author": "Gintaras Kapocius",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GintarasKapocius/Gintaras_Kapocius_DOM_exam/issues"
   },
-  "homepage": "https://github.com/GintarasKapocius/Gintaras_Kapocius_DOM_exam#readme"
+  "homepage": "https://github.com/GintarasKapocius/Gintaras_Kapocius_DOM_exam#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
 }

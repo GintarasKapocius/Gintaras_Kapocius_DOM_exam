@@ -67,28 +67,6 @@
       "imgSrc": "https://cdn.archilovers.com/projects/c_383_8c055626-045a-4453-975d-31d6e317a9e1.jpg"
     },
     {
-      "id": "5",
-      "type": "house",
-      "owner": {
-        "fullname": "Cliegg Lars",
-        "email": "lars@gmail.com",
-        "phone": "+37061174432"
-      },
-      "roomCount": 6,
-      "squares": 150,
-      "address": {
-        "city": "Vilnius",
-        "country": "Lietuva",
-        "street": "Baldžio",
-        "number": "5"
-      },
-      "price": {
-        "amount": 500000,
-        "currency": "$"
-      },
-      "imgSrc": "https://thecoolhunter.net/wp-content/uploads/old-blog-images/lith.jpg"
-    },
-    {
       "id": "6",
       "type": "flat",
       "owner": {
